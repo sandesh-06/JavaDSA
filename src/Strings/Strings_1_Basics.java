@@ -57,5 +57,15 @@ public class Strings_1_Basics {
         System.out.println(str7.substring(10)); //"string"
         System.out.println(str7.substring(3, 8)); //prints from index 3 to 7;
 
+        //8. str.equals() ans ==
+        String s1 = "hello";
+        String s2 = "hello";
+        String s3 = new String("hello");
+        System.out.println(s1==s2); //prints 'true'
+        System.out.println(s1==s3); //prints 'false'
+        //because when you use '==' it checks if the address is same rather comparing the strings
+        //so it is always recommended to use .equals() to comapre strings
+        System.out.println(s1.equals(s3)); //prints 'true'
+
     }
 }
