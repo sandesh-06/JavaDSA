@@ -1,7 +1,7 @@
 package LinkedLists;
 
 public class LL_3_Create_LinkedList {
-    public static class Node{
+    public static class Node{ //USER DEFINED DATA TYPE
         int data;
         Node next;
 
@@ -11,7 +11,7 @@ public class LL_3_Create_LinkedList {
             this.data = data;
         }
     }
-    public static class linkedlist{
+    public static class linkedlist{ //USER DEFINED DATA STRUCTURE
         //initially
         Node head = null;
         Node tail = null;
