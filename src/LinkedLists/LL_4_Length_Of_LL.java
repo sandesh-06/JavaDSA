@@ -1,6 +1,6 @@
 package LinkedLists;
 
-public class LL_3_Length_Of_LL {
+public class LL_4_Length_Of_LL {
     //iterative approach
     public static int iterativeLength(Node head){
         int count = 0;
